@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.pre.Controller.Fragment.MainFragment"
+        android:label="MainFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.pre.Controller.Fragment.Top_Four_Fragment.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/InformationFragment"
+        android:name="com.example.pre.Controller.Fragment.Top_Four_Fragment.InformationFragment"
+        android:label="InformationFragment" />
+    <fragment
+        android:id="@+id/AccountFragment"
+        android:name="com.example.pre.Controller.Fragment.Top_Four_Fragment.AccountFragment"
+        android:label="AccountFragment" />
+
+</navigation>
